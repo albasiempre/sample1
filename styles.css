@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+body, div, p, h1, h2, h3, h4, h5 img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+/*
+* column settings
+*/
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+* columun 1 から 12を書き加える
+* flexboxを使用して、widthを%で書く
+*/
+
+
+
+/*
+* main top
+*/
+
+.top-main {
+  /* background-image: url(../shared/yaoqi-lai-19429.jpg); */
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+
+.hero-message {
+  z-index: 1;
+  position: absolute;
+}
+
+.hero-image {
+  z-index: 0;
+}
+
+.top-main h2 {
+  color:#ffffff;
+  width:auto;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.top-main h1 {
+  color:#ffffff;
+  font-size: 60px;
+  font-weight: 100;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Lora', serif;
+  text-align: center;
+  border-bottom: 1px solid;
+  padding: 30px;
+}
+
+.top-main p {
+  color:#ffffff;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Lora', serif;
+  text-align: center;
+  margin: 50px 350px;
+}
+
+.hero-image img {
+  
+}
+
+/*
+* middle section
+*/
+.middle-columns {
+  max-height: 473px;
+  width: 33%;
+  margin-left: 10px;
+  text-align: center;
+  
+}
+
+.middle-columns img {
+ 
+}
+
+.middle-columns1 {
+ display: flex;
+}
+
+.middle-columns2 {
+ display: flex;
+}
+
+.middle-columns {
+ ;
+}
+
+.middle-columns h3 {
+  color: rgb(133, 152, 206);
+  margin-bottom: ;
+}
+
+.middle-columns h2 {
+  font-weight: 600;
+  color: black;
+  vertical-align: middle;
+}
+
+
+.middle-section p {
+  color: rgb(133, 152, 206);
+  ;
+}
+
+/*
+* middle label
+*/
+
+.middle-label {
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; 
+}
+
+.middle-label h1 {
+  padding: 50px;
+  font-size: 60px;
+  font-weight: 100;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Lora', serif;
+}
+
+.middle-label h2 {
+  color: rgb(133, 152, 206);
+}
+
+/*
+* bottom section
+*/
+.bottom-section .slim {
+  padding: 50px 50px 30px 80px;
+}
+
+.bottom-section-label h1 {
+  font-size: 60px;
+  font-weight: 100;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Lora', serif;
+}
+
+.bottom-section-paragraph {
+  background-color: rgb(226, 224, 230);
+}
+
+.bottom-section-paragraph h2 {
+  color: rgb(133, 152, 206);
+  margin: 30px;
+}
+
+/*
+* footer
+*/
+
+.footer {
+  height: 400px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer h1 {
+  font-size: 60px;
+  font-weight: 100;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Lora', serif;
+}
