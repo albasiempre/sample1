@@ -167,6 +167,10 @@ font-size: 18px;
 * bottom section
 */
 
+.bottom-section { 
+  grid-template-rows: 1fr 1fr;
+}
+
 .bottom-message {
   text-align: center;
   font-size: 28px;
@@ -178,18 +182,22 @@ font-size: 18px;
 
 .bottom-columns {
   font-size: 18px;
+  align-self: center;
 }
 
 .bottom-columns-upper {
  display: grid;
  grid-template-columns: 1fr 1fr;
+ margin: 40px 100px 0 100px;
 }
 
 .bottom-columns-lower {
  display: grid;
  grid-template-columns: 1fr 1fr;
-
+ margin: 0 100px 40px 100px;
 }
+
+
 .bottom-section .slim {
   padding: 50px 50px 30px 80px;
 }
@@ -217,4 +225,8 @@ font-size: 18px;
   font-weight: 100;
   font-family: 'Encode Sans Expanded', sans-serif;
   font-family: 'Lora', serif;
+}
+
+.footer-message {
+  align-items: center;
 }
